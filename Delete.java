@@ -1,38 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -69,12 +35,7 @@ public class Delete extends HttpServlet {
 			else {
 				pw.print("<h2>Deletion is not done</h2>");
 			}
-			
-			
-			
-			
-			
-			
+							
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
